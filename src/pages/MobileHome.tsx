@@ -31,7 +31,7 @@ export default function MobileHome({
 
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
-        console.log(rect.top);
+        // console.log(rect.top);
         if (rect.top <= 100 && rect.bottom > 0) {
           currentId = section.id;
         }
