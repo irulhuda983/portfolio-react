@@ -31,7 +31,8 @@ export default function MobileHome({
 
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
-        if (rect.top <= 0 && rect.bottom > 0) {
+        console.log(rect.top);
+        if (rect.top <= 100 && rect.bottom > 0) {
           currentId = section.id;
         }
       });
@@ -63,7 +64,7 @@ export default function MobileHome({
         </nav>
       )}
 
-      <section id="noid" className="w-full box-border px-6 pt-12 mb-20">
+      <section id="noid" className="w-full box-border px-6 pt-12 pb-20">
         <div className="w-full box-border text-muted-foreground">
           <h1 className="font-bold text-3xl mb-2 text-foreground/80">M. Khoirul Huda</h1>
           <h5 className="text-lg text-foreground/80 font-semibold mb-5">Full Stack Developer</h5>
@@ -81,7 +82,7 @@ export default function MobileHome({
         </div>
       </section>
 
-      <section id="about" className="text-muted-foreground min-h-screen mb-20 px-6">
+      <section id="about" className="text-muted-foreground min-h-screen pb-20 px-6">
         <p className="mb-5 leading-7">I am a Full Stack Developer passionate about building interactive and scalable user interfaces (UI), with a strong focus on performance optimization and development efficiency. I enjoy creating digital experiences that are not only visually appealing but also robust and user-friendly.</p>
         <p className="mb-5 leading-7">Currently, I work at <span className="text-foreground">Indocyber Global Teknologi, stationed at BPJS Ketenagakerjaan</span>, where I contribute to developing reliable and efficient systems. Previously, I have developed software across a variety of environments — from start-ups to large enterprises — including integrating payment gateways, Google APIs, and various other APIs to deliver complete and functional solutions.</p>
         <p className="mb-5 leading-7">In my spare time, I enjoy exploring new technologies, such as Artificial Intelligence (AI) and other modern technologies, to continuously improve my skills and understanding in software development.</p>
@@ -96,19 +97,19 @@ export default function MobileHome({
         </div>
       </section>
 
-      <section id="experience" className="w-full min-h-screen box-border mb-20">
+      <section id="experience" className="w-full min-h-screen box-border pb-20">
         {experienceData.map((exp, i) => (
           <CardExperienceMobile key={i} experience={exp} />
         ))}
       </section>
 
-      <section id="projects" className="w-full min-h-screen box-border text-muted-foreground mb-20">
+      <section id="projects" className="w-full min-h-screen box-border text-muted-foreground pb-20">
         {projectData.map((project, i) => (
           <CardProjectMobile key={i} project={project} onClick={handleProjectClick} />
         ))}
       </section>
 
-      <section id="skills" className="w-full box-border px-6 mb-20">
+      <section id="skills" className="w-full box-border px-6 pb-20">
         <div className="w-full box-border mb-10">
           <div className="text-foreground/80 mb-5 text-xl">My Skills</div>
           <div className="w-full box-border text-muted-foreground mb-5">

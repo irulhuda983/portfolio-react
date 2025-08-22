@@ -132,13 +132,13 @@ const links = [
   },
 ];
 
-const skillData = ['JavaScript (ES6+)', 'Typescript', 'Node.js', 'Express', 'Nest.js', 'Vue.js', 'React.js', 'Next.js', 'MongoDB', 'Mysql', 'PostgreSQL', 'Docker', 'Kubenetes', 'GIT', 'Tailwindcss'];
+const skillData = ['JavaScript (ES6+)', 'Typescript', 'Node.js', 'Express', 'Nest.js', 'Vue.js', 'React.js', 'Next.js', 'MongoDB', 'Mysql', 'PostgreSQL', 'Docker', 'Kubenetes', 'Jenskin', 'GIT', 'Tailwindcss'];
 
 const teknologiData = {
   programingLanguage: ['JavaScript (ES6+)', 'Typescript', 'Node.js', 'PHP', 'Python'],
   framework: ['Laravel', 'Express', 'Nest.js', 'Vue.js', 'Nuxt.js', 'React.js', 'Next.js', 'Tailwindcss'],
   database: ['MongoDB', 'Mysql', 'PostgreSQL', 'Oracle'],
-  devOps: ['Nginx', 'Apache', 'Docker', 'Kubernetes', 'Openshift', 'GIT'],
+  devOps: ['Nginx', 'Apache', 'Docker', 'Kubernetes', 'Gitlab CI', 'Jenskin', 'Openshift', 'GIT'],
 };
 
 const Home = () => {

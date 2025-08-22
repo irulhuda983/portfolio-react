@@ -66,7 +66,7 @@ function DekstopHome({
           </div>
 
           <div className="w-full box-border text-muted-foreground flex flex-col gap-y-4">
-            <a href="#about" className={`w-full flex items-center gap-x-4 group ${activeId === "about" ? "text-foreground" : "text-muted-foreground"}`}
+            <a href="#about" className={`w-auto flex items-center justify-start gap-x-4 group ${activeId === "about" ? "text-foreground" : "text-muted-foreground"}`}
             >
               <div className={`h-px group-hover:w-14 group-hover:bg-foreground transition-all duration-100 ease-in-out ${activeId === "about" ? "w-14 bg-foreground" : "w-8 bg-muted-foreground"}`}></div>
               <div className="uppercase text-xs">about</div>
