@@ -17,18 +17,31 @@
   "about": {
     "paragraphs": [
       "I am a Full Stack Developer passionate about building interactive and scalable user interfaces (UI), with a strong focus on performance optimization and development efficiency. I enjoy creating digital experiences that are not only visually appealing but also robust and user-friendly.",
-      "Currently, I work at <strong>Indocyber Global Teknologi, stationed at BPJS Ketenagakerjaan</strong>, where I contribute to developing reliable and efficient systems. Previously, I have developed software across a variety of environments — from start-ups to large enterprises — including integrating payment gateways, Google APIs, and various other APIs to deliver complete and functional solutions.",
+      "Currently, I work at <strong>Taiwan Mobile</strong>, where I develop an AI-powered interview and training platform. Previously, I have developed software across a variety of environments — from start-ups to large enterprises, including a project assignment at BPJS Ketenagakerjaan — covering payment gateway integrations, Google APIs, and various other APIs to deliver complete and functional solutions.",
       "In my spare time, I enjoy exploring new technologies, such as Artificial Intelligence (AI) and other modern technologies, to continuously improve my skills and understanding in software development."
     ],
     "skillsIntro": "Here are a few technologies I’ve been working with recently:"
   },
   "experience": [
     {
+      "id": "taiwan-mobile",
+      "title": "Full Stack Developer",
+      "company": "Taiwan Mobile Co., Ltd.",
+      "start": "SEP 2025",
+      "end": "present",
+      "jobs": [
+        "Developed and maintained the user-facing and admin dashboards of an AI-powered interview and training platform using Next.js, React, and TypeScript.",
+        "Built a resilient video upload pipeline with streaming upload, real-time progress tracking, automatic retry, and unified error and network-status handling.",
+        "Implemented role-based access control and route protection across the admin dashboard with strict TypeScript typing.",
+        "Collaborated with a cross-functional engineering team, integrating a FastAPI backend (JWT auth, PostgreSQL, Redis) to deliver end-to-end interview workflows."
+      ]
+    },
+    {
       "id": "indocyber",
       "title": "Full Stack Developer",
       "company": "Indocyber Global Teknologi – Project Assignment at BPJS Ketenagakerjaan",
       "start": "DEC 2024",
-      "end": "present",
+      "end": "SEP 2025",
       "jobs": [
         "Conducted unit testing, stress testing, and performance optimization of web applications.",
         "Refactored monolithic systems into microservices for scalability and efficiency.",

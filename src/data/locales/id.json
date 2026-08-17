@@ -17,18 +17,31 @@
   "about": {
     "paragraphs": [
       "Saya seorang Full Stack Developer yang senang membangun antarmuka pengguna (UI) yang interaktif dan scalable, dengan fokus kuat pada optimasi performa dan efisiensi pengembangan. Saya senang menciptakan pengalaman digital yang tidak hanya menarik secara visual, tetapi juga andal dan mudah digunakan.",
-      "Saat ini, saya bekerja di <strong>Indocyber Global Teknologi, ditempatkan di BPJS Ketenagakerjaan</strong>, di mana saya berkontribusi dalam mengembangkan sistem yang andal dan efisien. Sebelumnya, saya telah mengembangkan perangkat lunak di berbagai lingkungan — mulai dari start-up hingga perusahaan besar — termasuk mengintegrasikan payment gateway, Google API, dan berbagai API lainnya untuk menghasilkan solusi yang lengkap dan fungsional.",
+      "Saat ini, saya bekerja di <strong>Taiwan Mobile</strong>, di mana saya mengembangkan platform wawancara dan pelatihan berbasis AI. Sebelumnya, saya telah mengembangkan perangkat lunak di berbagai lingkungan — mulai dari start-up hingga perusahaan besar, termasuk penugasan proyek di BPJS Ketenagakerjaan — mencakup integrasi payment gateway, Google API, dan berbagai API lainnya untuk menghasilkan solusi yang lengkap dan fungsional.",
       "Di waktu luang, saya senang mengeksplorasi teknologi baru, seperti Artificial Intelligence (AI) dan teknologi modern lainnya, untuk terus meningkatkan kemampuan dan pemahaman saya dalam pengembangan perangkat lunak."
     ],
     "skillsIntro": "Berikut beberapa teknologi yang belakangan ini saya gunakan:"
   },
   "experience": [
     {
+      "id": "taiwan-mobile",
+      "title": "Full Stack Developer",
+      "company": "Taiwan Mobile Co., Ltd.",
+      "start": "SEP 2025",
+      "end": "sekarang",
+      "jobs": [
+        "Mengembangkan dan memelihara dashboard pengguna dan admin untuk platform wawancara dan pelatihan berbasis AI menggunakan Next.js, React, dan TypeScript.",
+        "Membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres secara real-time, retry otomatis, dan penanganan error serta status jaringan yang terpadu.",
+        "Menerapkan role-based access control dan proteksi rute di dashboard admin dengan strict typing TypeScript.",
+        "Berkolaborasi dengan tim engineering lintas fungsi, mengintegrasikan backend FastAPI (autentikasi JWT, PostgreSQL, Redis) untuk mewujudkan alur kerja wawancara end-to-end."
+      ]
+    },
+    {
       "id": "indocyber",
       "title": "Full Stack Developer",
       "company": "Indocyber Global Teknologi – Penugasan Proyek di BPJS Ketenagakerjaan",
       "start": "DES 2024",
-      "end": "sekarang",
+      "end": "SEP 2025",
       "jobs": [
         "Melakukan unit testing, stress testing, dan optimasi performa aplikasi web.",
         "Melakukan refactoring sistem monolitik menjadi microservices untuk skalabilitas dan efisiensi.",
