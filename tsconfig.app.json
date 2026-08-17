@@ -10,8 +10,10 @@
     ],
     "module": "ESNext",
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     // tambahan
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": [
         "./src/*"

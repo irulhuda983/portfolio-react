@@ -1,0 +1,141 @@
+{
+  "profile": {
+    "name": "M. Khoirul Huda",
+    "role": "Full Stack Developer",
+    "tagline": "I am passionate about building robust, scalable, and user-friendly web applications from frontend to backend.",
+    "resumeLabel": "Download Resume",
+    "resumeUrl": "/RESUME-KHOIRUL-HUDA.pdf",
+    "email": "irulhuda983@gmail.com",
+    "phone": "+62 823-3783-1456"
+  },
+  "nav": {
+    "about": "about",
+    "experience": "experience",
+    "projects": "projects",
+    "skills": "skills"
+  },
+  "about": {
+    "paragraphs": [
+      "I am a Full Stack Developer passionate about building interactive and scalable user interfaces (UI), with a strong focus on performance optimization and development efficiency. I enjoy creating digital experiences that are not only visually appealing but also robust and user-friendly.",
+      "Currently, I work at <strong>Indocyber Global Teknologi, stationed at BPJS Ketenagakerjaan</strong>, where I contribute to developing reliable and efficient systems. Previously, I have developed software across a variety of environments — from start-ups to large enterprises — including integrating payment gateways, Google APIs, and various other APIs to deliver complete and functional solutions.",
+      "In my spare time, I enjoy exploring new technologies, such as Artificial Intelligence (AI) and other modern technologies, to continuously improve my skills and understanding in software development."
+    ],
+    "skillsIntro": "Here are a few technologies I’ve been working with recently:"
+  },
+  "experience": [
+    {
+      "id": "indocyber",
+      "title": "Full Stack Developer",
+      "company": "Indocyber Global Teknologi – Project Assignment at BPJS Ketenagakerjaan",
+      "start": "DEC 2024",
+      "end": "present",
+      "jobs": [
+        "Conducted unit testing, stress testing, and performance optimization of web applications.",
+        "Refactored monolithic systems into microservices for scalability and efficiency.",
+        "Developed RESTful APIs, optimized queries, and performed database tuning.",
+        "Collaborated within Agile/Scrum teams using Jira for project management."
+      ]
+    },
+    {
+      "id": "positif-media",
+      "title": "Full Stack Developer",
+      "company": "PT. Positif Media Citra",
+      "start": "JAN 2019",
+      "end": "NOV 2024",
+      "jobs": [
+        "Developed and maintained end-to-end web applications (frontend & backend).",
+        "Implemented microservices architecture and integrated third-party APIs.",
+        "Improved application performance through refactoring and automated testing.",
+        "Developed and maintained end-to-end web and mobile-based Point of Sale (POS) systems, including payment methods, sales reporting, and inventory management."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "jworks",
+      "link": "#",
+      "title": "JWORKS - BPJS Ketenagakerjaan",
+      "description": "JWorks is a superapp for internal use at BPJS Ketenagakerjaan, functioning as a shortcut hub to access other internal applications within BPJS TK. In this project, I work as a Backend Developer, responsible for building APIs and integrating them with various internal BPJS TK applications.",
+      "skills": ["Express", "Node JS", "Mysql", "Typescript", "Oracle", "Docker"]
+    },
+    {
+      "id": "eproc",
+      "link": "#",
+      "title": "EPROC - BPJS Ketenagakerjaan",
+      "description": "EProc is an electronic procurement application developed for BPJS Ketenagakerjaan to streamline the procurement process.",
+      "skills": ["Express", "Node JS", "Mysql", "Oracle", "Vue.JS", "Docker"]
+    },
+    {
+      "id": "mqr",
+      "link": "https://mahamerulantas.id/",
+      "title": "Mahameru Quick Response",
+      "description": "Mahameru Quick Response was developed using Vue JS and Express. Its purpose is to serve as an information hub for activities within the East Java Traffic Directorate (DITLANTAS Polda Jatim) as well as a monitoring tool for officers.",
+      "skills": ["Vue JS", "Tailwindcss", "Express", "Node JS", "Mysql"]
+    },
+    {
+      "id": "tsp",
+      "link": "https://teguranpresisi.id",
+      "title": "Teguran Presisi",
+      "description": "Teguran Presisi was built with Vue JS and Laravel. It is an application designed for recording traffic violations and sending automated notifications through WhatsApp broadcasts.",
+      "skills": ["Vue JS", "Laravel", "Tailwindcss", "Mysql"]
+    },
+    {
+      "id": "elatnis",
+      "link": "https://elatnis.setukpa.id",
+      "title": "E-Latnis Setukpa",
+      "description": "E-Latnis is a training application developed for Setukpa Lemdiklat to support technical training programs.",
+      "skills": ["Vue JS", "Express", "Tailwindcss", "Node JS", "Mysql"]
+    },
+    {
+      "id": "melonku",
+      "link": "https://melonku.id",
+      "title": "Melonku",
+      "description": "Melonku is designed using Vue JS and Express, focusing on selling fresh and high-quality melons directly from farmers to consumers.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
+    },
+    {
+      "id": "greenhouse",
+      "link": "https://gh.melonku.id",
+      "title": "My Greenhouse",
+      "description": "My Greenhouse is a monitoring application for temperature, humidity, and other conditions inside the greenhouse. It also provides control features for water pumps, fans, and more.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
+    },
+    {
+      "id": "r3store",
+      "link": "https://r3store.co",
+      "title": "R3Store",
+      "description": "R3Store is a platform for purchasing digital items such as diamonds, UC, and vouchers for various popular games. It is built with a simple and responsive interface to ensure users can complete transactions quickly, safely, and conveniently.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Nest JS", "TypeScript", "Node JS", "Mysql"]
+    },
+    {
+      "id": "ccod",
+      "link": "https://r3store.co",
+      "title": "CCOD",
+      "description": "CCOD is a monitoring dashboard designed to observe and analyze data related to forests, mining areas, and more.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
+    }
+  ],
+  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
+  "technologies": {
+    "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
+    "framework": ["Laravel", "Express", "Nest.js", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
+    "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle"],
+    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenskin", "Openshift", "GIT"]
+  },
+  "skillsSection": {
+    "title": "My Skills",
+    "categories": {
+      "programingLanguage": "Programing Language",
+      "framework": "Frameworks",
+      "database": "Database",
+      "devOps": "Dev Ops"
+    }
+  },
+  "contact": {
+    "title": "Contact me"
+  },
+  "footer": "Loosely designed in Figma and coded in Visual Studio Code by me. Built with <strong>React.js</strong> and <strong>Tailwind CSS</strong>, deployed on my personal VPS. All text is set in the Geist typeface.",
+  "misc": {
+    "urlNotAvailable": "URL not available"
+  }
+}
