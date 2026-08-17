@@ -65,6 +65,20 @@
   ],
   "projects": [
     {
+      "id": "ai-training-partner",
+      "link": "#",
+      "title": "AI Training Partner - Taiwan Mobile",
+      "description": "AI Training Partner is an AI-powered interview and training platform built for Taiwan Mobile, letting candidates complete video-based interview and training sessions online. I focus on the user-facing application, building a resilient video upload pipeline with streaming upload, real-time progress tracking, automatic retry, and unified error handling.",
+      "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
+    },
+    {
+      "id": "ai-training-partner-admin",
+      "link": "#",
+      "title": "AI Training Partner - Admin Dashboard",
+      "description": "The admin and reviewer dashboard for the AI Training Partner platform, used by internal teams to manage interview questions, review candidate submissions, and control access. I implemented role-based access control and route protection with strict TypeScript typing.",
+      "skills": ["Next.js", "React", "TypeScript"]
+    },
+    {
       "id": "jworks",
       "link": "#",
       "title": "JWORKS - BPJS Ketenagakerjaan",

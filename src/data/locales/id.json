@@ -65,6 +65,20 @@
   ],
   "projects": [
     {
+      "id": "ai-training-partner",
+      "link": "#",
+      "title": "AI Training Partner - Taiwan Mobile",
+      "description": "AI Training Partner adalah platform wawancara dan pelatihan berbasis AI yang dibangun untuk Taiwan Mobile, memungkinkan kandidat menyelesaikan sesi wawancara dan pelatihan berbasis video secara online. Saya berfokus pada aplikasi user-facing, membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres real-time, retry otomatis, dan penanganan error yang terpadu.",
+      "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
+    },
+    {
+      "id": "ai-training-partner-admin",
+      "link": "#",
+      "title": "AI Training Partner - Admin Dashboard",
+      "description": "Dashboard admin dan reviewer untuk platform AI Training Partner, digunakan oleh tim internal untuk mengelola bank soal wawancara, meninjau submission kandidat, dan mengontrol akses. Saya menerapkan role-based access control dan proteksi rute dengan strict typing TypeScript.",
+      "skills": ["Next.js", "React", "TypeScript"]
+    },
+    {
       "id": "jworks",
       "link": "#",
       "title": "JWORKS - BPJS Ketenagakerjaan",

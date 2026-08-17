@@ -100,7 +100,7 @@ function DekstopHome({ data }: IProps) {
           </div>
         </div>
         <div className="w-3/5 py-20 box-border pl-8">
-          <section id="about" className="text-muted-foreground min-h-screen mb-8 px-4">
+          <section id="about" className="text-muted-foreground min-h-screen mb-10 px-4">
             {about.paragraphs.map((paragraph, i) => (
               <p key={i} className="mb-5 leading-7"><RichText text={paragraph} /></p>
             ))}
@@ -115,20 +115,20 @@ function DekstopHome({ data }: IProps) {
             </div>
           </section>
 
-          <section id="experience" className="w-full min-h-screen box-border mb-8">
+          <section id="experience" className="w-full min-h-screen box-border mb-10">
             {experienceData.map((exp) => (
               <CardExperience key={exp.id} experience={exp} />
             ))}
           </section>
 
 
-          <section id="projects" className="w-full min-h-screen box-border text-muted-foreground mb-8">
+          <section id="projects" className="w-full min-h-screen box-border text-muted-foreground mb-10">
             {projectData.map((project) => (
               <CardProject key={project.id} project={project} onClick={handleProjectClick} />
             ))}
           </section>
 
-          <section id="skills" className="w-full box-border mb-8 py-8">
+          <section id="skills" className="w-full box-border mb-10 py-8">
             <div className="w-full box-border mb-10">
               <div className="text-foreground/80 mb-5 text-xl">{skillsSection.title}</div>
               <div className="w-full box-border text-muted-foreground mb-5">
