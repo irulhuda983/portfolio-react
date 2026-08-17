@@ -142,11 +142,11 @@
       "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
     }
   ],
-  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
+  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
   "technologies": {
     "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
-    "framework": ["Laravel", "Express", "Nest.js", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
-    "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle"],
+    "framework": ["Laravel", "Express", "Nest.js", "FastAPI", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
+    "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle", "Redis"],
     "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenskin", "Openshift", "GIT"]
   },
   "skillsSection": {
