@@ -14,8 +14,7 @@ function getInitialLanguage(): TLanguage {
     return stored as TLanguage;
   }
 
-  const browserLang = window.navigator.language?.toLowerCase() ?? "";
-  return browserLang.startsWith("id") ? "id" : "en";
+  return "en";
 }
 
 function LanguageProvider({ children }: { children: ReactNode }) {
