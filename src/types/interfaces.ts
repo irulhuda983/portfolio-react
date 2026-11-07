@@ -70,7 +70,7 @@ type TPortfolioData = {
   };
   footer: string;
   misc: {
-    urlNotAvailable: string;
+    internalApp: string;
   };
 };
 

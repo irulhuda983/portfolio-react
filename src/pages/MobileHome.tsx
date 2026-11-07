@@ -60,11 +60,7 @@ export default function MobileHome({ data }: IProps) {
   }, []);
 
   const handleProjectClick = (url?: string): void => {
-    if (url) {
-      window.open(url, "_blank"); // redirect ke tab baru
-    } else {
-      alert(misc.urlNotAvailable);
-    }
+    if (url) window.open(url, "_blank"); // redirect ke tab baru
   };
 
   return (
@@ -120,7 +116,7 @@ export default function MobileHome({ data }: IProps) {
 
       <section id="projects" className="w-full min-h-screen box-border text-muted-foreground pb-20">
         {projectData.map((project) => (
-          <CardProjectMobile key={project.id} project={project} onClick={handleProjectClick} />
+          <CardProjectMobile key={project.id} project={project} onClick={handleProjectClick} internalLabel={misc.internalApp} />
         ))}
       </section>
 

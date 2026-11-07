@@ -66,28 +66,24 @@
   "projects": [
     {
       "id": "ai-training-partner",
-      "link": "#",
       "title": "AI Training Partner - Taiwan Mobile",
       "description": "AI Training Partner is an AI-powered interview and training platform built for Taiwan Mobile, letting candidates complete video-based interview and training sessions online. I focus on the user-facing application, building a resilient video upload pipeline with streaming upload, real-time progress tracking, automatic retry, and unified error handling.",
       "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
     },
     {
       "id": "ai-training-partner-admin",
-      "link": "#",
       "title": "AI Training Partner - Admin Dashboard",
       "description": "The admin and reviewer dashboard for the AI Training Partner platform, used by internal teams to manage interview questions, review candidate submissions, and control access. I implemented role-based access control and route protection with strict TypeScript typing.",
       "skills": ["Next.js", "React", "TypeScript"]
     },
     {
       "id": "jworks",
-      "link": "#",
       "title": "JWORKS - BPJS Ketenagakerjaan",
       "description": "JWorks is a superapp for internal use at BPJS Ketenagakerjaan, functioning as a shortcut hub to access other internal applications within BPJS TK. In this project, I work as a Backend Developer, responsible for building APIs and integrating them with various internal BPJS TK applications.",
       "skills": ["Express", "Node JS", "Mysql", "Typescript", "Oracle", "Docker"]
     },
     {
       "id": "eproc",
-      "link": "#",
       "title": "EPROC - BPJS Ketenagakerjaan",
       "description": "EProc is an electronic procurement application developed for BPJS Ketenagakerjaan to streamline the procurement process.",
       "skills": ["Express", "Node JS", "Mysql", "Oracle", "Vue.JS", "Docker"]
@@ -136,23 +132,23 @@
     },
     {
       "id": "ccod",
-      "link": "https://r3store.co",
+      "link": "https://ccod.synergics.digital",
       "title": "CCOD",
       "description": "CCOD is a monitoring dashboard designed to observe and analyze data related to forests, mining areas, and more.",
       "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
     }
   ],
-  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
+  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubernetes", "Jenkins", "GIT", "Tailwindcss"],
   "technologies": {
     "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
     "framework": ["Laravel", "Express", "Nest.js", "FastAPI", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
     "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle", "Redis"],
-    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenskin", "Openshift", "GIT"]
+    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenkins", "Openshift", "GIT"]
   },
   "skillsSection": {
     "title": "My Skills",
     "categories": {
-      "programingLanguage": "Programing Language",
+      "programingLanguage": "Programming Language",
       "framework": "Frameworks",
       "database": "Database",
       "devOps": "Dev Ops"
@@ -163,6 +159,6 @@
   },
   "footer": "Loosely designed in Figma and coded in Visual Studio Code by me. Built with <strong>React.js</strong> and <strong>Tailwind CSS</strong>, deployed on my personal VPS. All text is set in the Geist typeface.",
   "misc": {
-    "urlNotAvailable": "URL not available"
+    "internalApp": "Internal application"
   }
 }

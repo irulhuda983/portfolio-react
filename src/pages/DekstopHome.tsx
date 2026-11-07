@@ -52,11 +52,7 @@ function DekstopHome({ data }: IProps) {
   }, []);
 
   const handleProjectClick = (url?: string): void => {
-    if (url) {
-      window.open(url, "_blank"); // redirect ke tab baru
-    } else {
-      alert(misc.urlNotAvailable);
-    }
+    if (url) window.open(url, "_blank"); // redirect ke tab baru
   };
 
   const navItems: Array<{ id: "about" | "experience" | "projects" | "skills" }> = [
@@ -124,7 +120,7 @@ function DekstopHome({ data }: IProps) {
 
           <section id="projects" className="w-full min-h-screen box-border text-muted-foreground mb-10">
             {projectData.map((project) => (
-              <CardProject key={project.id} project={project} onClick={handleProjectClick} />
+              <CardProject key={project.id} project={project} onClick={handleProjectClick} internalLabel={misc.internalApp} />
             ))}
           </section>
 

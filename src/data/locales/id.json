@@ -66,28 +66,24 @@
   "projects": [
     {
       "id": "ai-training-partner",
-      "link": "#",
       "title": "AI Training Partner - Taiwan Mobile",
       "description": "AI Training Partner adalah platform wawancara dan pelatihan berbasis AI yang dibangun untuk Taiwan Mobile, memungkinkan kandidat menyelesaikan sesi wawancara dan pelatihan berbasis video secara online. Saya berfokus pada aplikasi user-facing, membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres real-time, retry otomatis, dan penanganan error yang terpadu.",
       "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
     },
     {
       "id": "ai-training-partner-admin",
-      "link": "#",
       "title": "AI Training Partner - Admin Dashboard",
       "description": "Dashboard admin dan reviewer untuk platform AI Training Partner, digunakan oleh tim internal untuk mengelola bank soal wawancara, meninjau submission kandidat, dan mengontrol akses. Saya menerapkan role-based access control dan proteksi rute dengan strict typing TypeScript.",
       "skills": ["Next.js", "React", "TypeScript"]
     },
     {
       "id": "jworks",
-      "link": "#",
       "title": "JWORKS - BPJS Ketenagakerjaan",
       "description": "JWorks adalah superapp untuk penggunaan internal di BPJS Ketenagakerjaan, berfungsi sebagai pusat akses cepat ke berbagai aplikasi internal lain di lingkungan BPJS TK. Dalam proyek ini, saya berperan sebagai Backend Developer yang bertanggung jawab membangun API dan mengintegrasikannya dengan berbagai aplikasi internal BPJS TK.",
       "skills": ["Express", "Node JS", "Mysql", "Typescript", "Oracle", "Docker"]
     },
     {
       "id": "eproc",
-      "link": "#",
       "title": "EPROC - BPJS Ketenagakerjaan",
       "description": "EProc adalah aplikasi pengadaan elektronik yang dikembangkan untuk BPJS Ketenagakerjaan guna menyederhanakan proses pengadaan.",
       "skills": ["Express", "Node JS", "Mysql", "Oracle", "Vue.JS", "Docker"]
@@ -136,18 +132,18 @@
     },
     {
       "id": "ccod",
-      "link": "https://r3store.co",
+      "link": "https://ccod.synergics.digital",
       "title": "CCOD",
       "description": "CCOD adalah dashboard pemantauan yang dirancang untuk mengamati dan menganalisis data terkait hutan, area pertambangan, dan lainnya.",
       "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
     }
   ],
-  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
+  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubernetes", "Jenkins", "GIT", "Tailwindcss"],
   "technologies": {
     "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
     "framework": ["Laravel", "Express", "Nest.js", "FastAPI", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
     "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle", "Redis"],
-    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenskin", "Openshift", "GIT"]
+    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenkins", "Openshift", "GIT"]
   },
   "skillsSection": {
     "title": "Keahlian Saya",
@@ -163,6 +159,6 @@
   },
   "footer": "Didesain santai di Figma dan dikodekan di Visual Studio Code oleh saya sendiri. Dibangun dengan <strong>React.js</strong> dan <strong>Tailwind CSS</strong>, di-deploy di VPS pribadi saya. Seluruh teks menggunakan typeface Geist.",
   "misc": {
-    "urlNotAvailable": "URL tidak tersedia"
+    "internalApp": "Aplikasi internal"
   }
 }
