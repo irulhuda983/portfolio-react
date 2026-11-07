@@ -1,0 +1,168 @@
+{
+  "profile": {
+    "name": "M. Khoirul Huda",
+    "role": "Full Stack Developer",
+    "tagline": "Saya senang membangun aplikasi web yang andal, scalable, dan ramah pengguna, mulai dari frontend hingga backend.",
+    "resumeLabel": "Unduh Resume",
+    "resumeUrl": "/RESUME-KHOIRUL-HUDA.pdf",
+    "email": "irulhuda983@gmail.com",
+    "phone": "+62 823-3783-1456"
+  },
+  "nav": {
+    "about": "tentang",
+    "experience": "pengalaman",
+    "projects": "proyek",
+    "skills": "keahlian"
+  },
+  "about": {
+    "paragraphs": [
+      "Saya seorang Full Stack Developer yang senang membangun antarmuka pengguna (UI) yang interaktif dan scalable, dengan fokus kuat pada optimasi performa dan efisiensi pengembangan. Saya senang menciptakan pengalaman digital yang tidak hanya menarik secara visual, tetapi juga andal dan mudah digunakan.",
+      "Saat ini, saya bekerja di <strong>Taiwan Mobile</strong>, di mana saya mengembangkan platform wawancara dan pelatihan berbasis AI. Sebelumnya, saya telah mengembangkan perangkat lunak di berbagai lingkungan — mulai dari start-up hingga perusahaan besar, termasuk penugasan proyek di BPJS Ketenagakerjaan — mencakup integrasi payment gateway, Google API, dan berbagai API lainnya untuk menghasilkan solusi yang lengkap dan fungsional.",
+      "Di waktu luang, saya senang mengeksplorasi teknologi baru, seperti Artificial Intelligence (AI) dan teknologi modern lainnya, untuk terus meningkatkan kemampuan dan pemahaman saya dalam pengembangan perangkat lunak."
+    ],
+    "skillsIntro": "Berikut beberapa teknologi yang belakangan ini saya gunakan:"
+  },
+  "experience": [
+    {
+      "id": "taiwan-mobile",
+      "title": "Full Stack Developer",
+      "company": "Taiwan Mobile Co., Ltd.",
+      "start": "SEP 2025",
+      "end": "sekarang",
+      "jobs": [
+        "Mengembangkan dan memelihara dashboard pengguna dan admin untuk platform wawancara dan pelatihan berbasis AI menggunakan Next.js, React, dan TypeScript.",
+        "Membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres secara real-time, retry otomatis, dan penanganan error serta status jaringan yang terpadu.",
+        "Menerapkan role-based access control dan proteksi rute di dashboard admin dengan strict typing TypeScript.",
+        "Berkolaborasi dengan tim engineering lintas fungsi, mengintegrasikan backend FastAPI (autentikasi JWT, PostgreSQL, Redis) untuk mewujudkan alur kerja wawancara end-to-end."
+      ]
+    },
+    {
+      "id": "indocyber",
+      "title": "Full Stack Developer",
+      "company": "Indocyber Global Teknologi – Penugasan Proyek di BPJS Ketenagakerjaan",
+      "start": "DES 2024",
+      "end": "SEP 2025",
+      "jobs": [
+        "Melakukan unit testing, stress testing, dan optimasi performa aplikasi web.",
+        "Melakukan refactoring sistem monolitik menjadi microservices untuk skalabilitas dan efisiensi.",
+        "Mengembangkan RESTful API, mengoptimalkan query, dan melakukan database tuning.",
+        "Berkolaborasi dalam tim Agile/Scrum menggunakan Jira untuk manajemen proyek."
+      ]
+    },
+    {
+      "id": "positif-media",
+      "title": "Full Stack Developer",
+      "company": "PT. Positif Media Citra",
+      "start": "JAN 2019",
+      "end": "NOV 2024",
+      "jobs": [
+        "Mengembangkan dan memelihara aplikasi web end-to-end (frontend & backend).",
+        "Menerapkan arsitektur microservices dan mengintegrasikan API pihak ketiga.",
+        "Meningkatkan performa aplikasi melalui refactoring dan automated testing.",
+        "Mengembangkan dan memelihara sistem Point of Sale (POS) berbasis web dan mobile end-to-end, termasuk metode pembayaran, laporan penjualan, dan manajemen inventaris."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-training-partner",
+      "link": "#",
+      "title": "AI Training Partner - Taiwan Mobile",
+      "description": "AI Training Partner adalah platform wawancara dan pelatihan berbasis AI yang dibangun untuk Taiwan Mobile, memungkinkan kandidat menyelesaikan sesi wawancara dan pelatihan berbasis video secara online. Saya berfokus pada aplikasi user-facing, membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres real-time, retry otomatis, dan penanganan error yang terpadu.",
+      "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
+    },
+    {
+      "id": "ai-training-partner-admin",
+      "link": "#",
+      "title": "AI Training Partner - Admin Dashboard",
+      "description": "Dashboard admin dan reviewer untuk platform AI Training Partner, digunakan oleh tim internal untuk mengelola bank soal wawancara, meninjau submission kandidat, dan mengontrol akses. Saya menerapkan role-based access control dan proteksi rute dengan strict typing TypeScript.",
+      "skills": ["Next.js", "React", "TypeScript"]
+    },
+    {
+      "id": "jworks",
+      "link": "#",
+      "title": "JWORKS - BPJS Ketenagakerjaan",
+      "description": "JWorks adalah superapp untuk penggunaan internal di BPJS Ketenagakerjaan, berfungsi sebagai pusat akses cepat ke berbagai aplikasi internal lain di lingkungan BPJS TK. Dalam proyek ini, saya berperan sebagai Backend Developer yang bertanggung jawab membangun API dan mengintegrasikannya dengan berbagai aplikasi internal BPJS TK.",
+      "skills": ["Express", "Node JS", "Mysql", "Typescript", "Oracle", "Docker"]
+    },
+    {
+      "id": "eproc",
+      "link": "#",
+      "title": "EPROC - BPJS Ketenagakerjaan",
+      "description": "EProc adalah aplikasi pengadaan elektronik yang dikembangkan untuk BPJS Ketenagakerjaan guna menyederhanakan proses pengadaan.",
+      "skills": ["Express", "Node JS", "Mysql", "Oracle", "Vue.JS", "Docker"]
+    },
+    {
+      "id": "mqr",
+      "link": "https://mahamerulantas.id/",
+      "title": "Mahameru Quick Response",
+      "description": "Mahameru Quick Response dikembangkan menggunakan Vue JS dan Express. Tujuannya adalah menjadi pusat informasi kegiatan di lingkungan Direktorat Lalu Lintas Polda Jawa Timur (DITLANTAS Polda Jatim) sekaligus alat pemantauan bagi para petugas.",
+      "skills": ["Vue JS", "Tailwindcss", "Express", "Node JS", "Mysql"]
+    },
+    {
+      "id": "tsp",
+      "link": "https://teguranpresisi.id",
+      "title": "Teguran Presisi",
+      "description": "Teguran Presisi dibangun dengan Vue JS dan Laravel. Aplikasi ini dirancang untuk mencatat pelanggaran lalu lintas dan mengirimkan notifikasi otomatis melalui broadcast WhatsApp.",
+      "skills": ["Vue JS", "Laravel", "Tailwindcss", "Mysql"]
+    },
+    {
+      "id": "elatnis",
+      "link": "https://elatnis.setukpa.id",
+      "title": "E-Latnis Setukpa",
+      "description": "E-Latnis adalah aplikasi pelatihan yang dikembangkan untuk Setukpa Lemdiklat guna mendukung program-program pelatihan teknis.",
+      "skills": ["Vue JS", "Express", "Tailwindcss", "Node JS", "Mysql"]
+    },
+    {
+      "id": "melonku",
+      "link": "https://melonku.id",
+      "title": "Melonku",
+      "description": "Melonku dirancang menggunakan Vue JS dan Express, berfokus pada penjualan melon segar berkualitas tinggi langsung dari petani ke konsumen.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
+    },
+    {
+      "id": "greenhouse",
+      "link": "https://gh.melonku.id",
+      "title": "My Greenhouse",
+      "description": "My Greenhouse adalah aplikasi pemantauan suhu, kelembapan, dan kondisi lain di dalam greenhouse. Aplikasi ini juga menyediakan fitur kontrol untuk pompa air, kipas, dan lainnya.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
+    },
+    {
+      "id": "r3store",
+      "link": "https://r3store.co",
+      "title": "R3Store",
+      "description": "R3Store adalah platform untuk membeli item digital seperti diamond, UC, dan voucher untuk berbagai game populer. Dibangun dengan antarmuka yang sederhana dan responsif agar pengguna dapat menyelesaikan transaksi dengan cepat, aman, dan nyaman.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Nest JS", "TypeScript", "Node JS", "Mysql"]
+    },
+    {
+      "id": "ccod",
+      "link": "https://r3store.co",
+      "title": "CCOD",
+      "description": "CCOD adalah dashboard pemantauan yang dirancang untuk mengamati dan menganalisis data terkait hutan, area pertambangan, dan lainnya.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
+    }
+  ],
+  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubenetes", "Jenskin", "GIT", "Tailwindcss"],
+  "technologies": {
+    "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
+    "framework": ["Laravel", "Express", "Nest.js", "FastAPI", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
+    "database": ["MongoDB", "Mysql", "PostgreSQL", "Oracle", "Redis"],
+    "devOps": ["Nginx", "Apache", "Docker", "Kubernetes", "Gitlab CI", "Jenskin", "Openshift", "GIT"]
+  },
+  "skillsSection": {
+    "title": "Keahlian Saya",
+    "categories": {
+      "programingLanguage": "Bahasa Pemrograman",
+      "framework": "Framework",
+      "database": "Database",
+      "devOps": "Dev Ops"
+    }
+  },
+  "contact": {
+    "title": "Hubungi saya"
+  },
+  "footer": "Didesain santai di Figma dan dikodekan di Visual Studio Code oleh saya sendiri. Dibangun dengan <strong>React.js</strong> dan <strong>Tailwind CSS</strong>, di-deploy di VPS pribadi saya. Seluruh teks menggunakan typeface Geist.",
+  "misc": {
+    "urlNotAvailable": "URL tidak tersedia"
+  }
+}
