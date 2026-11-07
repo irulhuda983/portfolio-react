@@ -67,34 +67,47 @@
   "projects": [
     {
       "id": "ai-training-partner",
+      "featured": true,
       "title": "AI Training Partner - Taiwan Mobile",
       "description": "AI Training Partner adalah platform wawancara dan pelatihan berbasis AI yang dibangun untuk Taiwan Mobile, memungkinkan kandidat menyelesaikan sesi wawancara dan pelatihan berbasis video secara online. Saya berfokus pada aplikasi user-facing, membangun pipeline upload video yang andal dengan streaming upload, pelacakan progres real-time, retry otomatis, dan penanganan error yang terpadu.",
       "skills": ["Next.js", "React", "TypeScript", "Tailwindcss"]
     },
     {
       "id": "ai-training-partner-admin",
+      "featured": true,
       "title": "AI Training Partner - Admin Dashboard",
       "description": "Dashboard admin dan reviewer untuk platform AI Training Partner, digunakan oleh tim internal untuk mengelola bank soal wawancara, meninjau submission kandidat, dan mengontrol akses. Saya menerapkan role-based access control dan proteksi rute dengan strict typing TypeScript.",
       "skills": ["Next.js", "React", "TypeScript"]
     },
     {
       "id": "jworks",
+      "featured": true,
       "title": "JWORKS - BPJS Ketenagakerjaan",
       "description": "JWorks adalah superapp untuk penggunaan internal di BPJS Ketenagakerjaan, berfungsi sebagai pusat akses cepat ke berbagai aplikasi internal lain di lingkungan BPJS TK. Dalam proyek ini, saya berperan sebagai Backend Developer yang bertanggung jawab membangun API dan mengintegrasikannya dengan berbagai aplikasi internal BPJS TK.",
       "skills": ["Express", "Node JS", "Mysql", "Typescript", "Oracle", "Docker"]
     },
     {
       "id": "eproc",
+      "featured": true,
       "title": "EPROC - BPJS Ketenagakerjaan",
       "description": "EProc adalah aplikasi pengadaan elektronik yang dikembangkan untuk BPJS Ketenagakerjaan guna menyederhanakan proses pengadaan.",
       "skills": ["Express", "Node JS", "Mysql", "Oracle", "Vue.JS", "Docker"]
     },
     {
       "id": "mqr",
+      "featured": true,
       "link": "https://mahamerulantas.id/",
       "title": "Mahameru Quick Response",
       "description": "Mahameru Quick Response dikembangkan menggunakan Vue JS dan Express. Tujuannya adalah menjadi pusat informasi kegiatan di lingkungan Direktorat Lalu Lintas Polda Jawa Timur (DITLANTAS Polda Jatim) sekaligus alat pemantauan bagi para petugas.",
       "skills": ["Vue JS", "Tailwindcss", "Express", "Node JS", "Mysql"]
+    },
+    {
+      "id": "melonku",
+      "featured": true,
+      "link": "https://melonku.id",
+      "title": "Melonku",
+      "description": "Melonku dirancang menggunakan Vue JS dan Express, berfokus pada penjualan melon segar berkualitas tinggi langsung dari petani ke konsumen.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
     },
     {
       "id": "tsp",
@@ -109,13 +122,6 @@
       "title": "E-Latnis Setukpa",
       "description": "E-Latnis adalah aplikasi pelatihan yang dikembangkan untuk Setukpa Lemdiklat guna mendukung program-program pelatihan teknis.",
       "skills": ["Vue JS", "Express", "Tailwindcss", "Node JS", "Mysql"]
-    },
-    {
-      "id": "melonku",
-      "link": "https://melonku.id",
-      "title": "Melonku",
-      "description": "Melonku dirancang menggunakan Vue JS dan Express, berfokus pada penjualan melon segar berkualitas tinggi langsung dari petani ke konsumen.",
-      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
     },
     {
       "id": "greenhouse",
@@ -160,6 +166,8 @@
   },
   "footer": "Didesain santai di Figma dan dikodekan di Visual Studio Code oleh saya sendiri. Dibangun dengan <strong>React.js</strong> dan <strong>Tailwind CSS</strong>, di-deploy di VPS pribadi saya. Seluruh teks menggunakan typeface Geist.",
   "misc": {
-    "internalApp": "Aplikasi internal"
+    "internalApp": "Aplikasi internal",
+    "showMoreProjects": "Tampilkan {count} project lainnya",
+    "showFewerProjects": "Tampilkan lebih sedikit"
   }
 }

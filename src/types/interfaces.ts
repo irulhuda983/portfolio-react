@@ -15,6 +15,7 @@ type TProject = {
   id: string;
   imgUrl?: string;
   link?: string;
+  featured?: boolean;
   title: string;
   description: string;
   skills?: string[];
@@ -71,6 +72,8 @@ type TPortfolioData = {
   footer: string;
   misc: {
     internalApp: string;
+    showMoreProjects: string;
+    showFewerProjects: string;
   };
 };
 

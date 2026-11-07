@@ -14,6 +14,7 @@ interface IProps {
 
 function DekstopHome({ data }: IProps) {
   const [activeId, setActiveId] = useState("about");
+  const [showAllProjects, setShowAllProjects] = useState(false);
 
   const {
     profile,
@@ -50,6 +51,10 @@ function DekstopHome({ data }: IProps) {
       sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
+
+  const featuredProjects = projectData.filter((project) => project.featured);
+  const otherProjects = projectData.filter((project) => !project.featured);
+  const visibleProjects = showAllProjects ? projectData : featuredProjects;
 
   const handleProjectClick = (url?: string): void => {
     if (url) window.open(url, "_blank"); // redirect ke tab baru
@@ -119,9 +124,18 @@ function DekstopHome({ data }: IProps) {
 
 
           <section id="projects" className="w-full min-h-screen box-border text-muted-foreground mb-10">
-            {projectData.map((project) => (
+            {visibleProjects.map((project) => (
               <CardProject key={project.id} project={project} onClick={handleProjectClick} internalLabel={misc.internalApp} />
             ))}
+            {otherProjects.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setShowAllProjects((v) => !v)}
+                className="mx-4 text-sm text-teal-400 hover:underline cursor-pointer"
+              >
+                {showAllProjects ? misc.showFewerProjects : misc.showMoreProjects.replace("{count}", String(otherProjects.length))}
+              </button>
+            )}
           </section>
 
           <section id="skills" className="w-full box-border mb-10 py-8">
