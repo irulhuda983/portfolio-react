@@ -98,7 +98,7 @@ export default function MobileHome({ data }: IProps) {
         </div>
       </section>
 
-      <section id="about" className="text-muted-foreground min-h-screen pb-20 px-6">
+      <section id="about" className="text-muted-foreground min-h-[60vh] pb-20 px-6">
         {about.paragraphs.map((paragraph, i) => (
           <p key={i} className="mb-5 leading-7"><RichText text={paragraph} /></p>
         ))}

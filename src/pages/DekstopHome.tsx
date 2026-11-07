@@ -101,7 +101,7 @@ function DekstopHome({ data }: IProps) {
           </div>
         </div>
         <div className="w-3/5 py-20 box-border pl-8">
-          <section id="about" className="text-muted-foreground min-h-screen mb-10 px-4">
+          <section id="about" className="text-muted-foreground min-h-[60vh] mb-10 px-4">
             {about.paragraphs.map((paragraph, i) => (
               <p key={i} className="mb-5 leading-7"><RichText text={paragraph} /></p>
             ))}
