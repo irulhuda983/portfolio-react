@@ -58,6 +58,7 @@
       "jobs": [
         "Built custom web applications end-to-end (frontend and backend) as one-off projects for multiple clients at a software house.",
         "Integrated a wide range of third-party APIs, including payment gateways, WhatsApp, Google Maps, digital top-up, and identity verification services.",
+        "Developed APIs consumed by mobile applications built by other developers, collaborating closely with the mobile team.",
         "Built the web application of a Point of Sale (POS) system, covering payment methods, sales reporting, and inventory management.",
         "Applied microservices architecture and improved application performance through refactoring and automated testing."
       ]

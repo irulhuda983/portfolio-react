@@ -58,6 +58,7 @@
       "jobs": [
         "Membangun aplikasi web kustom secara menyeluruh (frontend dan backend) sebagai project pesanan untuk banyak klien di software house.",
         "Mengintegrasikan beragam API pihak ketiga, termasuk payment gateway, WhatsApp, Google Maps, top-up digital, dan layanan verifikasi identitas.",
+        "Mengembangkan API yang dipakai oleh aplikasi mobile yang dibuat developer lain, dengan berkolaborasi erat bersama tim mobile.",
         "Membangun aplikasi web untuk sistem Point of Sale (POS), mencakup metode pembayaran, laporan penjualan, dan manajemen inventori.",
         "Menerapkan arsitektur microservices dan meningkatkan performa aplikasi lewat refactoring dan automated testing."
       ]
