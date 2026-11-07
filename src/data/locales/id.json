@@ -168,6 +168,7 @@
   "misc": {
     "internalApp": "Aplikasi internal",
     "showMoreProjects": "Tampilkan {count} project lainnya",
-    "showFewerProjects": "Tampilkan lebih sedikit"
+    "showFewerProjects": "Tampilkan lebih sedikit",
+    "scrollHint": "Gulir"
   }
 }

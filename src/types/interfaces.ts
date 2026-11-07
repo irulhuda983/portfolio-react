@@ -74,6 +74,7 @@ type TPortfolioData = {
     internalApp: string;
     showMoreProjects: string;
     showFewerProjects: string;
+    scrollHint: string;
   };
 };
 

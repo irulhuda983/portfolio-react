@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CardExperience from "@/components/ui/card-experience";
 import CardProject from "@/components/ui/card-project";
 import RichText from "@/components/ui/rich-text";
+import ScrollHint from "@/components/ui/scroll-hint";
 import LanguageSwitcher from "@/components/ui/language-switcher";
 
 import { Play, Mail, Phone } from 'lucide-react';
@@ -69,6 +70,7 @@ function DekstopHome({ data }: IProps) {
 
   return (
     <div className="w-full min-h-screen box-border flex justify-center">
+      <ScrollHint label={misc.scrollHint} targetId="experience" />
       <div className="w-full lg:w-[1280px] flex items-start justify-end box-border">
         <div className="w-2/5 h-screen box-border sticky top-0 left-0 bottom-0 py-20 pr-8 flex flex-col items-center justify-between">
           {/* header */}
@@ -101,7 +103,7 @@ function DekstopHome({ data }: IProps) {
           </div>
         </div>
         <div className="w-3/5 py-20 box-border pl-8">
-          <section id="about" className="text-muted-foreground min-h-[60vh] mb-10 px-4">
+          <section id="about" className="text-muted-foreground min-h-screen mb-10 px-4">
             {about.paragraphs.map((paragraph, i) => (
               <p key={i} className="mb-5 leading-7"><RichText text={paragraph} /></p>
             ))}

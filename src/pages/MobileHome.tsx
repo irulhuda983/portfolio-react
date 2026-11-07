@@ -7,6 +7,7 @@ import type { usePortfolioData } from "@/i18n/usePortfolioData";
 import CardExperienceMobile from "@/components/ui/card-experience-mobile";
 import CardProjectMobile from "@/components/ui/card-project-mobile";
 import RichText from "@/components/ui/rich-text";
+import ScrollHint from "@/components/ui/scroll-hint";
 import LanguageSwitcher from "@/components/ui/language-switcher";
 
 interface IProps {
@@ -70,6 +71,7 @@ export default function MobileHome({ data }: IProps) {
 
   return (
     <div className="w-full box-border">
+      <ScrollHint label={misc.scrollHint} targetId="about" />
       {activeMobileId != "noid" && (
         <nav className="w-full box-border h-16 py-2 px-6 flex items-center justify-between bg-foreground/10 backdrop-blur-md sticky top-0 z-50">
           <h1 className="text-foreground/80 font-bold uppercase">{navLabels[activeMobileId] ?? activeMobileId}</h1>
@@ -98,7 +100,7 @@ export default function MobileHome({ data }: IProps) {
         </div>
       </section>
 
-      <section id="about" className="text-muted-foreground min-h-[60vh] pb-20 px-6">
+      <section id="about" className="text-muted-foreground min-h-screen pb-20 px-6">
         {about.paragraphs.map((paragraph, i) => (
           <p key={i} className="mb-5 leading-7"><RichText text={paragraph} /></p>
         ))}
