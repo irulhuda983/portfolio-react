@@ -145,7 +145,7 @@
       "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "TypeScript", "Node JS", "Mysql"]
     }
   ],
-  "skills": ["JavaScript (ES6+)", "Typescript", "Node.js", "Express", "Nest.js", "FastAPI", "Vue.js", "React.js", "Next.js", "MongoDB", "Mysql", "PostgreSQL", "Redis", "Docker", "Kubernetes", "Jenkins", "GIT", "Tailwindcss"],
+  "skills": ["TypeScript", "React.js", "Next.js", "Tailwindcss", "FastAPI", "PostgreSQL", "Redis", "Docker"],
   "technologies": {
     "programingLanguage": ["JavaScript (ES6+)", "Typescript", "Node.js", "PHP", "Python"],
     "framework": ["Laravel", "Express", "Nest.js", "FastAPI", "Vue.js", "Nuxt.js", "React.js", "Next.js", "Tailwindcss"],
