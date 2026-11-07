@@ -43,9 +43,9 @@
       "start": "DES 2024",
       "end": "SEP 2025",
       "jobs": [
-        "Melakukan unit testing, stress testing, dan optimasi performa aplikasi web.",
-        "Melakukan refactoring sistem monolitik menjadi microservices untuk skalabilitas dan efisiensi.",
-        "Mengembangkan RESTful API, mengoptimalkan query, dan melakukan database tuning.",
+        "Melakukan refactoring sistem monolitik menjadi 3 microservice untuk meningkatkan skalabilitas dan kemudahan perawatan.",
+        "Mengoptimalkan query database yang lambat dan melakukan database tuning agar aplikasi berskala nasional, yang dipakai kantor cabang di seluruh Indonesia, tetap cepat dan responsif.",
+        "Mengembangkan RESTful API serta melakukan unit testing, stress testing, dan optimasi performa.",
         "Berkolaborasi dalam tim Agile/Scrum menggunakan Jira untuk manajemen proyek."
       ]
     },
@@ -56,10 +56,10 @@
       "start": "JAN 2019",
       "end": "NOV 2024",
       "jobs": [
-        "Mengembangkan dan memelihara aplikasi web end-to-end (frontend & backend).",
-        "Menerapkan arsitektur microservices dan mengintegrasikan API pihak ketiga.",
-        "Meningkatkan performa aplikasi melalui refactoring dan automated testing.",
-        "Mengembangkan dan memelihara sistem Point of Sale (POS) berbasis web dan mobile end-to-end, termasuk metode pembayaran, laporan penjualan, dan manajemen inventaris."
+        "Membangun aplikasi web kustom secara menyeluruh (frontend dan backend) sebagai project pesanan untuk banyak klien di software house.",
+        "Mengintegrasikan beragam API pihak ketiga, termasuk payment gateway, WhatsApp, Google Maps, top-up digital, dan layanan verifikasi identitas.",
+        "Membangun aplikasi web untuk sistem Point of Sale (POS), mencakup metode pembayaran, laporan penjualan, dan manajemen inventori.",
+        "Menerapkan arsitektur microservices dan meningkatkan performa aplikasi lewat refactoring dan automated testing."
       ]
     }
   ],
