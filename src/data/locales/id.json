@@ -102,12 +102,12 @@
       "skills": ["Vue JS", "Tailwindcss", "Express", "Node JS", "Mysql"]
     },
     {
-      "id": "melonku",
+      "id": "greenhouse",
       "featured": true,
-      "link": "https://melonku.id",
-      "title": "Melonku",
-      "description": "Melonku dirancang menggunakan Vue JS dan Express, berfokus pada penjualan melon segar berkualitas tinggi langsung dari petani ke konsumen.",
-      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
+      "link": "https://gh.melonku.id",
+      "title": "My Greenhouse",
+      "description": "My Greenhouse adalah aplikasi pemantauan suhu, kelembapan, dan kondisi lain di dalam greenhouse. Aplikasi ini juga menyediakan fitur kontrol untuk pompa air, kipas, dan lainnya.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
     },
     {
       "id": "tsp",
@@ -124,11 +124,11 @@
       "skills": ["Vue JS", "Express", "Tailwindcss", "Node JS", "Mysql"]
     },
     {
-      "id": "greenhouse",
-      "link": "https://gh.melonku.id",
-      "title": "My Greenhouse",
-      "description": "My Greenhouse adalah aplikasi pemantauan suhu, kelembapan, dan kondisi lain di dalam greenhouse. Aplikasi ini juga menyediakan fitur kontrol untuk pompa air, kipas, dan lainnya.",
-      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
+      "id": "melonku",
+      "link": "https://melonku.id",
+      "title": "Melonku",
+      "description": "Melonku dirancang menggunakan Vue JS dan Express, berfokus pada penjualan melon segar berkualitas tinggi langsung dari petani ke konsumen.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
     },
     {
       "id": "r3store",

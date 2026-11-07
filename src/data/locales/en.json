@@ -102,12 +102,12 @@
       "skills": ["Vue JS", "Tailwindcss", "Express", "Node JS", "Mysql"]
     },
     {
-      "id": "melonku",
+      "id": "greenhouse",
       "featured": true,
-      "link": "https://melonku.id",
-      "title": "Melonku",
-      "description": "Melonku is designed using Vue JS and Express, focusing on selling fresh and high-quality melons directly from farmers to consumers.",
-      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
+      "link": "https://gh.melonku.id",
+      "title": "My Greenhouse",
+      "description": "My Greenhouse is a monitoring application for temperature, humidity, and other conditions inside the greenhouse. It also provides control features for water pumps, fans, and more.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
     },
     {
       "id": "tsp",
@@ -124,11 +124,11 @@
       "skills": ["Vue JS", "Express", "Tailwindcss", "Node JS", "Mysql"]
     },
     {
-      "id": "greenhouse",
-      "link": "https://gh.melonku.id",
-      "title": "My Greenhouse",
-      "description": "My Greenhouse is a monitoring application for temperature, humidity, and other conditions inside the greenhouse. It also provides control features for water pumps, fans, and more.",
-      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "TypeScript", "Node JS", "MongoDB"]
+      "id": "melonku",
+      "link": "https://melonku.id",
+      "title": "Melonku",
+      "description": "Melonku is designed using Vue JS and Express, focusing on selling fresh and high-quality melons directly from farmers to consumers.",
+      "skills": ["Vue JS", "Nuxt JS", "Tailwindcss", "Express", "Node JS", "MongoDB"]
     },
     {
       "id": "r3store",
